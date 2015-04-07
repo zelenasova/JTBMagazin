@@ -1,0 +1,8 @@
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/classes/debug
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-b21c4143b844c5dc8119cb210e4ce8f5f9f44689.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/classes-4a29a4e37c86f5b193ecc72dde81c23cd40eaad9.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-658aaf04d08b94ba53215f24cf9e7e8037d8d3ca.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/classes-7d562f707ae043f4b034692834ab3f3626c4808d.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/gson-2.2.4-2ca4f2df72f6ed829e065ba0c42bc2ea1294a18f.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-SNAPSHOT-with-sources-d4c145c5b0885955820c01510ec2ddb6ef330313.jar
+/Users/zelenasova/AndroidstudioProjects/JTBMagazin/magazin/build/intermediates/pre-dexed/debug/classes-6162a0ff689ef64175ebe27657ee0d9bcb34d0e7.jar

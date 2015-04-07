@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- magnus -->
+    <string name="poviedka">POVIEDKA</string>
+    <string name="fotoesej">FOTOESEJ</string>
+    <string name="mindex">M-INDEX</string>
+    <string name="concierge">CONCIERGE</string>
+    <string name="noble"><![CDATA[<b>MAGNUS</b><br /> NOBLESSE OBLIGE]]></string>
+    <string name="noble_archiv"><![CDATA[<b>MAGNUS</b><br /> NOBLESSE OBLIGE<br /><b>ARCHÍV</b>]]></string>
+    <string name="spat">ZPĚT</string>
+    
+    
+    <!-- Menu -->
+    <string name="vyhladat">Hledat v článcích</string>
+     <string name="magazin_magnus"><![CDATA[Magazín <br /> Magnus]]></string>
+    <string name="svet_ocami"><![CDATA[Svět očima <br /> banky]]></string>
+    <string name="informacny_servis"><![CDATA[Informační <br /> servis]]></string>
+    <string name="klub_magnus"><![CDATA[Klub <br /> Magnus]]></string>
+    <string name="citat_neskor">Uložené články</string>
+    <string name="oblubene">Oblíbené</string>
+    <string name="login_text"><![CDATA[Pro přihlášení do aplikace použijte PIN<br />  a získejte přístup ke kompletnímu obsahu]]></string>
+    <string name="login">Přihlásit</string>
+    <string name="login_edit">PIN</string>
+    <string name="forgot">forgot password</string>
+    
+    <!-- Vysuvacie menu -->
+      <string name="nastavenia">Nastavení</string>
+    <string name="velkost_pisma">Velikost písma</string>
+    <string name="small">Malé</string>
+    <string name="normal">Normální</string>
+    <string name="big">Velké</string>
+    <string name="magazin_notifikacie"><![CDATA[Oznámení <br /> magazínu Magnus]]></string>
+    <string name="magnus_notifikacie"><![CDATA[Oznámení <br /> klubu Magnus]]></string>
+    <string name="farba_pozadia">Barva pozadí v článcích</string>
+    <string name="vyber_jazyka">Výběr jazyka</string>
+    <string name="prihlasit">Přihlásit</string>
+    <string name="help">Jak používat aplikaci</string>
+ 
+  
+    <string name="suvisiace_clanky">DOPORUČENÉ ČLÁNKY</string>
+    
+    <!-- vyhladavacie -->
+    <string name="vysledky_vyhladavania">VÝSLEDKY></string>
+    <string name="vysledky_vyhladavania2">HLEDÁNÍ</string>
+    <string name="favorites"><![CDATA[<b>OBLÍBENÉ</b>]]></string>
+    <string name="saved">ULOŽENÉ ČLÁNKY</string>
+    <string name="read"><![CDATA[<u>PŘEČÍST POZDĚJI</u>]]></string>
+    <string name="read2">Přečíst později</string>
+    <string name="hladane_slovo"><![CDATA[Hledané slovo <br /> nebo téma]]></string>
+    <string name="clanok">článek</string>
+    <string name="clanky">články</string>
+    <string name="clankov">článků</string>
+
+    <string name="zatvorit">Zavřít</string>
+
+	<string name="twitter_feed"><![CDATA[J&T Banka<br />twitter ]]></string>
+    <string name="twitter_feed2">twitter</string>
+    <string name="app_name">JTB Magazin</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="login_popis">Curabitur vulputate, ligula lacinia scelerisque tempor.</string>
+    <string name="search"><b>Výsledky</b></string>
+	<string name="dialog_download">Stahuji soubor, prosím čekejte</string>
+    <string name="dialog_load">Načítám soubor, prosím čekejte</string>
+    
+        <!-- error hlasky -->
+    <string name="error1">NASTALA CHYBA</string>
+    <string name="error2">NASTALA FATÁLNÍ CHYBA</string>
+    <string name="error3">UPOZORNĚNÍ</string>
+    <string name="error4">Ukončit</string>
+    <string name="error5">Získání článku selhalo. Zkontrolujte stav internetového připojení. V případě přetrvávajících problémů restartujte aplikaci.</string>
+    <string name="error6">Získání dat ze serveru selhalo. Zkontrolujte stav internetového připojení. V případě přetrvávajících problémů restartujte aplikaci.</string>
+    <string name="error7">Doporučené články se nepodařilo nahrát ze serveru. Zkontrolujte stav připojení k internetu.</string>
+    <string name="error8">Spojení se serverem selhalo. Ujistěte se, že jste připojeni k internetu.</string>
+    <string name="error9">Aktualizace obsahu selhala. Zkontrolujte stav internetového připojení. V případě přetrvávajících problémů restartujte aplikaci.</string>
+    <string name="error10">Otevírání článku selhalo. Svůj pokus opakujte.</string>
+    <string name="error11">V procesu generování obsahu nastala chyba. Aplikace se pokusí o nové vygenerování.</string>
+    <string name="error12">Je nám líto, ale aplikace již je zastaralá a není více podporována. Aktualizujte ji.</string>
+    <string name="error13">Aplikace nemůže být spuštěna, protože synchronizace se serverem selhala. Zkontrolujte stav připojení k internetu a svůj pokus o spuštění zopakujte.</string>
+ 	<string name="error14">Získání obsahu časopisu selhalo. Zkontrolujte stav internetového připojení. V případě přetrvávajících problémů restartujte aplikaci.</string>
+	<string name="error15">Nepodařilo se přihlásit. Zadali jste nesprávný PIN.</string>
+	
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Magnus Archive</item>
+        <item>All articles</item>
+        <item>Favorited</item>
+        <item>Finance</item>
+        <item>LifeStyle</item>
+        <item>Club magnus</item>
+        <item>Log in</item>
+    </string-array>
+
+ 
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_pdf">PdfActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+    <!-- market -->
+    <string name="change">Změna</string>
+    <string name="title">Název</string>
+    <string name="mena">Měna</string>
+
+</resources>

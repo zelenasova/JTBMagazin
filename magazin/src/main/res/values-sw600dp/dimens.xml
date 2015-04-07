@@ -1,0 +1,26 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+<dimen name="size8">8px</dimen>
+<dimen name="size9">9px</dimen>
+<dimen name="size10">10px</dimen>
+<dimen name="size11">11px</dimen>
+<dimen name="size12">12px</dimen>
+<dimen name="size13">13px</dimen>
+<dimen name="size14">14px</dimen>
+<dimen name="size15">15px</dimen>
+<dimen name="size16">16px</dimen>
+<dimen name="size17">17px</dimen>
+<dimen name="size18">18px</dimen>
+<dimen name="size20">20px</dimen>
+<dimen name="size21">21px</dimen>
+<dimen name="size22">22px</dimen>
+<dimen name="size28">28px</dimen>
+<dimen name="size30">30px</dimen>
+<dimen name="size60">60px</dimen>
+<dimen name="size80">80px</dimen>
+
+</resources>

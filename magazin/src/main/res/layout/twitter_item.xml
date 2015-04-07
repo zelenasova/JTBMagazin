@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/lin"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#fff"
+  android:orientation="vertical">
+ 
+    <LinearLayout
+      	android:id="@+id/lin1"
+    	android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="6"
+  		android:orientation="vertical" /> 
+    
+   	<LinearLayout
+    	android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="90"
+		android:layout_gravity="bottom"
+  		android:orientation="horizontal"
+  		 android:background="#fff">  
+  		 
+   	    <LinearLayout
+        	android:id="@+id/lin2"
+    		android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="997"
+  			android:orientation="vertical">  
+  			
+   	       <LinearLayout
+        	android:id="@+id/lin22"
+    		android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+  			android:orientation="horizontal">
+  			
+   	           <ImageView
+   			    android:id="@+id/twitter_foto"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:src="@drawable/twitter_foto" />	
+        		
+   	            <LinearLayout
+        			android:id="@+id/lin221"
+    				android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+  					android:orientation="vertical">
+  					
+   	                <TextView
+  	  					android:id="@+id/text1"
+  	  					android:layout_width="wrap_content"
+	  					android:layout_height="wrap_content"
+	  					android:gravity="left"
+	  					android:textColor="#637883"
+	  					android:lineSpacingMultiplier="0.9" />
+  
+   					<TextView
+  	  					android:id="@+id/text2"
+  	  					android:layout_width="wrap_content"
+	  					android:layout_height="wrap_content"
+	  					android:gravity="right"
+	  					android:textColor="#b2b9b2"
+	  					android:lineSpacingMultiplier="0.8"/>
+   	                
+  				</LinearLayout> 
+   	           
+  			</LinearLayout> 
+   	    
+  		<RelativeLayout
+  		    android:layout_width="match_parent"
+	  		android:layout_height="match_parent" >
+   		
+   			<TextView
+  	  			android:id="@+id/text3"
+  	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:textColor="#14212a"
+	  			android:lineSpacingMultiplier="0.9"
+	  			android:layout_gravity="fill"
+	  			android:includeFontPadding="true"
+	  			
+			/>
+   			
+   			 <LinearLayout
+        			android:id="@+id/lin222"
+    				android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+  					android:orientation="horizontal"
+  					android:layout_alignParentBottom="true"
+  					android:gravity="center_vertical">	
+  				<LinearLayout
+    				android:layout_width="match_parent"
+					android:layout_height="match_parent"
+  					android:orientation="horizontal"
+  					android:gravity="center_vertical"
+  					android:layout_gravity="center_vertical">	
+   			   	 <ImageView
+   			   		android:id="@+id/retweeted_foto"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:src="@drawable/retweeted" />
+   			   	  		
+        			
+   			   	 <TextView
+  	  				android:id="@+id/text_retweeted"
+  	  				android:layout_width="wrap_content"
+	  				android:layout_height="match_parent"
+	  				android:textColor="#b4b4b4"
+	  				android:gravity="center_vertical"
+	  				android:layout_gravity="center_vertical"
+	  				android:includeFontPadding="false"
+	  				
+			/>
+  			</LinearLayout> 		
+   			     
+   			</LinearLayout> 
+   		</RelativeLayout>		
+   				
+   		</LinearLayout> 
+   		<View
+    		android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="3"
+			android:background="#e9e9e9" /> 
+  			
+   	</LinearLayout>  
+    
+   	<LinearLayout
+      	android:id="@+id/lin3"
+    	android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="4"
+  		android:orientation="vertical" />
+  
+ 	  
+    
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/link" />
+
+
+</FrameLayout>

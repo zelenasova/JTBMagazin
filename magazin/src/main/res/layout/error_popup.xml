@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/error"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:baselineAligned="false">
+    
+   <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="#ededed" >
+   
+         <ImageView
+        		android:id="@+id/img_error"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:src="@drawable/error"/> 
+
+	</LinearLayout> 
+	
+    <LinearLayout 
+    android:id="@+id/error_text"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    android:orientation="vertical" >         
+       
+         
+        <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="20"
+    		android:orientation="vertical" >
+    		
+    
+		<TextView 
+		    	android:id="@+id/error_title"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"  
+    			android:text=""
+    			android:textColor="#2c2c2c"  />
+		</LinearLayout>
+		
+        <LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="50"
+    		android:orientation="vertical" >
+		
+		<TextView 
+		    	android:id="@+id/error_content"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"  
+    			android:text=""
+    			android:textColor="#636363"  />
+		</LinearLayout>
+		<LinearLayout 
+    		android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="30"
+    		android:orientation="vertical">
+		<LinearLayout 
+		     android:id="@+id/error_button"
+    		android:layout_width="100dp"
+    		android:layout_height="100dp"
+    		android:orientation="vertical"
+    		android:background="#e1e1e1"
+    		android:gravity="center" >
+    		
+		    <TextView 	
+		        android:id="@+id/error_close"	        
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"  
+    			android:text="@string/zatvorit"			
+    			android:textColor="#2c2c2c"  />
+		 </LinearLayout>
+		 </LinearLayout>
+	</LinearLayout> 
+
+</LinearLayout>

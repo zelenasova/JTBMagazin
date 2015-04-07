@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webviewWrap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<RelativeLayout 
+    android:id="@+id/webviewWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+        </RelativeLayout>
+
+    
+	<LinearLayout
+	   android:layout_width="match_parent"
+   	   android:layout_height="match_parent"
+   	   android:gravity="center_vertical"
+   	   android:orientation="vertical">
+   	   
+	    <RelativeLayout
+	   android:id="@+id/detail_images"
+	   android:layout_width="match_parent"
+   	   android:layout_height="match_parent" >
+	        
+	     <!--<ImageView
+         android:id="@+id/prev_article"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/prev_article"
+         android:layout_centerVertical="true"
+         android:layout_alignParentLeft="true" />
+	          
+	     <ImageView
+         android:id="@+id/next_article"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/next_article" 
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true" />-->
+	     
+	     
+	        
+	    </RelativeLayout>
+	    
+	    
+	</LinearLayout>
+    <FrameLayout
+        android:id="@+id/webView_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:clickable="true" >
+
+    </FrameLayout>
+	<LinearLayout
+	   android:id="@+id/loading"
+	   android:layout_width="match_parent"
+   	   android:layout_height="match_parent"
+   	   android:gravity="center"
+   	   android:orientation="vertical"
+   	    android:visibility="gone" >
+	<ProgressBar      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+	</LinearLayout>
+
+</RelativeLayout>
