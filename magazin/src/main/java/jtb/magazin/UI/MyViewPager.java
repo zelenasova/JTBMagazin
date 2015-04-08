@@ -31,9 +31,10 @@ public class MyViewPager extends ViewPager {
     
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
+        System.out.println(ev.getX());
     	if (ev.getX()<screenWidth/10) return false;
     	else return super.onTouchEvent(ev);
-    	//System.out.println(ev.getX());
+
     	
     	//return super.onTouchEvent(ev);
     }
