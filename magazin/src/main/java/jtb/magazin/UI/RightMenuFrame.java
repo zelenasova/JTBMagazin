@@ -170,6 +170,18 @@ public class RightMenuFrame extends LinearLayout {
 		                	 } else {
 		                		 ((MainActivity)context).createMagnusFragment(magnusListModel);
 		                	 }
+                             new Thread() {
+                                 @Override
+                                 public void run() {
+                                     //SystemClock.sleep(500);
+                                     ((MainActivity)context).runOnUiThread(new Runnable() {
+                                         @Override
+                                         public void run() {
+                                             ((MainActivity)context).getmDrawerLayout().closeDrawer(((MainActivity)context).getmDrawerRight());
+                                         }
+                                     });
+                                 }
+                             }.start();
 		                 }
 		             });			        
 		           
